@@ -8,6 +8,7 @@
     "test": "test"
   },
   "scripts": {
+    "postinstall": "tsc",
     "build": "npm run tsc",
     "start": "node .",
     "tsc": "tsc",
